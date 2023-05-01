@@ -1,5 +1,5 @@
 # Cycle_GAN
-
+=
 In this exercise I used two MNIST datasets. Each digit is colored in a different color in  each dataset. The aim of the model is to learn how to take the image of the digit in a specific  color and translate it into a different color.
 
 Model Architecture:
@@ -28,9 +28,7 @@ The discriminator is trained by getting an input from the first dataset and a ge
 photo. Then the loss is calculated for these two photos. Then the weights are updated 
 accordingly.
 Let’s take a look at how effective the Generators are at different stages of the training 
-process:
-5 epochs:
-=
+process, first we will take a look after 5 epochs:
 
 ![image](https://user-images.githubusercontent.com/81694762/235474563-2637608e-e259-4b12-97da-b72d2cc5b524.png)
 
